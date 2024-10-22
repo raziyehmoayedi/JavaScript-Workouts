@@ -16,4 +16,4 @@ This repository contains a variety of JavaScript exercises ranging from simple b
 To get started with the exercises:
 1. Clone the repository: 
    ```bash
-   git clone https://github.com/yourusername/JavaScript-Workouts.git
+  [ git clone https://github.com/yourusername/JavaScript-Workouts.git](https://github.com/raziyehmoayedi/JavaScript-Workouts.git)
