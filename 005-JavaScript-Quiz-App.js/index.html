@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Quiz Application UI</title>
+  </head>
+  <body>
+    <header>
+      <h1 class="app-header">Quiz Application UI</h1>
+    </header>
+    <div class="body-app">
+      <h2 class="quiz-title">Quiz Title</h2>
+      <div class="container">
+        <div class="finishe-quiz-box">
+          <div class="quiz-finish-content">
+            <img
+              src="./finished exam.jpg"
+              alt="Congratulations to finished exam"
+              class="finish-image"
+            />
+            <h3>Your Quiz Results</h3>
+            <p>Number of correct answers : <span class="score correct">0</span></p>
+            <p>
+              Number of incorrect answers :
+              <span class="score incorrect">0</span>
+            </p>
+            <p>Your final score : <strong>0</strong></p>
+            <button class="btn review-btn">Exam review</button>
+
+          </div>
+        </div>
+        <div class="quiz-section">
+          <div class="question-box">
+            <h4 class="question-num"></h4>
+            <p class="question-text"></p>
+          </div>
+
+          <ul class="answers"></ul>
+          <div class="warningMessageForSelectAnswer">
+            <span
+              >⚠️ Don’t worry about negative points! Please select one of the
+              options to proceed to the next question.</span
+            >
+          </div>
+          <div class="control-buttons">
+            <button class="btn prev-btn">Prev</button>
+            <button class="btn next-btn">Next</button>
+          </div>
+        </div>
+
+        <div class="status-section">
+          <div class="question-status">
+            <p class="currentQuestionFromAll">
+              Question <span>1</span> /<span>20</span>
+            </p>
+            <p>Need Help ?</p>
+          </div>
+
+          <div class="question-circles"></div>
+        </div>
+      </div>
+    </div>
+    <div class="review-container"></div>
+    <script src="./script.js"></script>
+  </body>
+</html>

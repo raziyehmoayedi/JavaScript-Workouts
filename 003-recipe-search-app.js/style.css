@@ -1,0 +1,83 @@
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 30px;
+  background-color: #82589f;
+  border-radius: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+header {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.search-box {
+  width: 50%;
+  padding: 10px;
+  background-color: #ffffff;
+  border: 1px solid #1b1464;
+  box-shadow: 0 2px 5px #1b1464;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.loading {
+  font-size: 26px;
+  padding: 10px;
+  margin: 20vh;
+  text-align: center;
+  display: none;
+}
+
+.not-found {
+    font-size: 26px;
+  padding: 10px;
+  margin: 20vh;
+  text-align: center;
+  display: none;
+  color:#2f3542;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.box-templatex {
+  display: none;
+  background-color: #e2cce9;
+  padding: 15px;
+  border-radius: 30px;
+  box-shadow: 0 2px 5px #1b1464;
+}
+
+.title {
+  font-size: 18px;
+  margin: 0 0 10px;
+  color: #2f3542;
+}
+
+.ingredients {
+  font-size: 14px;
+  color: #666;
+}
+
+.divider {
+  margin: 10px 0;
+  border: none;
+  border-top: 2px solid #380230;
+}
+
+.servings {
+  font-size: 14px;
+  color: #333;
+}

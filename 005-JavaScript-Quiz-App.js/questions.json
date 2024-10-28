@@ -1,0 +1,340 @@
+[
+  {
+
+    "id": 1
+,    "question": "What is the correct way to declare a variable in JavaScript?",
+    "answers": [
+      "var myVariable;",
+      "let myVariable;",
+      "const myVariable;",
+      "All of the above"
+    ],
+    "correct": 3
+  },
+  {
+    "id": 2
+,    "question": "Which of the following is a primitive data type in JavaScript?",
+    "answers": ["Object", "Function", "Boolean", "Array"],
+    "correct": 2
+  },
+  {
+    "id": 3
+,    "question": "How do you write a comment in JavaScript?",
+    "answers": [
+      "<!-- Comment -->",
+      "// Comment",
+      "/* Comment */",
+      "Both // and /* */"
+    ],
+    "correct": 3
+  },
+  {
+    "id": 4
+,    "question": "Which method is used to convert a string to an integer?",
+    "answers": ["parseInt()", "Number()", "toString()", "parseFloat()"],
+    "correct": 0
+  },
+  {
+    "id": 5
+,    "question":
+      "Which of the following is used to check strict equality in JavaScript?",
+    "answers": ["=", "==", "===", "!=="],
+    "correct": 2
+  },
+  {
+    "id": 6
+,    "question":
+      "Which built-in method is used to add elements to the end of an array?",
+    "answers": ["push()", "pop()", "shift()", "unshift()"],
+    "correct": 0
+  },
+  {
+    "id": 7
+,    "question": "What does 'this' keyword refer to in JavaScript?",
+    "answers": [
+      "Global object",
+      "Current object",
+      "Document object",
+      "Function object"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 8
+,    "question":
+      "Which of the following methods creates a new array with all elements that pass the test implemented by the provided function?",
+    "answers": ["map()", "filter()", "forEach()", "reduce()"],
+    "correct": 1
+  },
+  {
+    "id": 9
+,    "question": "What is the output of `typeof null` in JavaScript?",
+    "answers": ["null", "object", "undefined", "string"],
+    "correct": 1
+  },
+  {
+    "id": 10,
+    "question":
+      "Which of the following is NOT a JavaScript framework or library?",
+    "answers": ["React", "Vue", "Django", "Angular"],
+    "correct": 2
+  },
+  {
+    "id": 11,
+    "question":
+      "Which method is used to round a number to the nearest integer in JavaScript?",
+    "answers": ["Math.round()", "Math.floor()", "Math.ceil()", "Math.trunc()"],
+    "correct": 0
+  },
+  {
+    "id": 12,
+    "question": "What does `NaN` represent in JavaScript?",
+    "answers": ["Not a Name", "Negative Number", "Not a Number", "Null and Null"],
+    "correct": 2
+  },
+  {
+    "id": 13,
+    "question":
+      "How can you check if an array contains a specific element in JavaScript?",
+    "answers": ["has()", "includes()", "contains()", "exists()"],
+    "correct": 1
+  },
+  {
+    "id": 14,
+    "question": "What is the output of `console.log(typeof [])`?",
+    "answers": ["array", "object", "null", "undefined"],
+    "correct": 1
+  },
+  {
+    "id": 15,
+    "question": "Which operator is used to assign a value to a variable?",
+    "answers": ["=", "==", "===", "!="],
+    "correct": 0
+  },
+  {
+    "id": 16,
+    "question": "How do you define a function in JavaScript?",
+    "answers": [
+      "function myFunction() {}",
+      "def myFunction() {}",
+      "fun myFunction() {}",
+      "func myFunction() {}"
+    ],
+    "correct": 0
+  },
+  {
+    "id": 17,
+    "question": "What will the following code return: `Boolean(10 > 9)`?",
+    "answers": ["true", "false", "undefined", "null"],
+    "correct": 0
+  },
+  {
+    "id": 18,
+    "question":
+      "Which of the following methods removes the last element from an array?",
+    "answers": ["push()", "pop()", "shift()", "splice()"],
+    "correct": 1
+  },
+  {
+    "id": 19,
+    "question": "Which method can be used to convert an object to a JSON string?",
+    "answers": [
+      "JSON.stringify()",
+      "JSON.parse()",
+      "toJSON()",
+      "JSON.objectify()"
+    ],
+    "correct": 0
+  },
+  {
+    "id": 20,
+    "question": "How can you create an object in JavaScript?",
+    "answers": [
+      "let obj = {};",
+      "let obj = new Object();",
+      "Both A and B",
+      "None of the above"
+    ],
+    "correct": 2
+  },{
+    "id": 21,
+    "question": "Which of the following is a method for creating a new array from an existing array in JavaScript?",
+    "answers": ["slice()", "splice()", "concat()", "All of the above"],
+    "correct": 3
+  },
+  {
+    "id": 22,
+    "question": "What will be the output of `console.log(0.1 + 0.2 === 0.3)` in JavaScript?",
+    "answers": ["true", "false", "undefined", "NaN"],
+    "correct": 1
+  },
+  {
+    "id": 23,
+    "question": "Which of the following keywords is used to define an asynchronous function?",
+    "answers": ["async", "await", "Promise", "setTimeout"],
+    "correct": 0
+  },
+  {
+    "id": 24,
+    "question": "How do you create a promise in JavaScript?",
+    "answers": ["new Promise()", "Promise.resolve()", "Promise.all()", "new Promise.all()"],
+    "correct": 0
+  },
+  {
+    "id": 25,
+    "question": "What does the `bind()` method do?",
+    "answers": ["It creates a new function", "It changes the `this` value", "It invokes a function", "Both A and B"],
+    "correct": 3
+  },
+  {
+    "id": 26,
+    "question": "What is the output of `console.log(typeof NaN)`?",
+    "answers": ["number", "NaN", "undefined", "object"],
+    "correct": 0
+  },
+  {
+    "id": 27,
+    "question": "Which method is used to convert a string to an array in JavaScript?",
+    "answers": ["split()", "join()", "push()", "pop()"],
+    "correct": 0
+  },
+  {
+    "id": 28,
+    "question": "What will be the output of `console.log([] + {})`?",
+    "answers": ["[object Object]", "undefined", "null", "[]{}"],
+    "correct": 0
+  },
+  {
+    "id": 29,
+    "question": "Which operator is used for destructuring an object in JavaScript?",
+    "answers": ["{}", "[]", "()", "||"],
+    "correct": 0
+  },
+  {
+    "id": 30,
+    "question": "What is the difference between `==` and `===` in JavaScript?",
+    "answers": ["They are the same", "One checks value and type, the other only value", "One is used for assignment", "None of the above"],
+    "correct": 1
+  },
+  {
+    "id": 31,
+    "question": "Which built-in method can be used to test if a string starts with a specific substring?",
+    "answers": ["startsWith()", "indexOf()", "substring()", "includes()"],
+    "correct": 0
+  },
+  {
+    "id": 32,
+    "question": "What is a closure in JavaScript?",
+    "answers": ["A function that remembers its lexical scope", "A block of code that executes immediately", "An object that contains functions", "None of the above"],
+    "correct": 0
+  },
+  {
+    "id": 33,
+    "question": "What is the purpose of `Object.freeze()` in JavaScript?",
+    "answers": ["To prevent adding new properties", "To make an object immutable", "Both A and B", "None of the above"],
+    "correct": 2
+  },
+  {
+    "id": 34,
+    "question": "Which method is used to remove the first element from an array?",
+    "answers": ["shift()", "pop()", "unshift()", "splice()"],
+    "correct": 0
+  },
+  {
+    "id": 35,
+    "question": "What will be the output of `console.log([1,2,3] == '1,2,3')`?",
+    "answers": ["true", "false", "undefined", "NaN"],
+    "correct": 0
+  },
+  {
+    "id": 36,
+    "question": "How do you create a copy of an array in JavaScript?",
+    "answers": ["array.copy()", "array.clone()", "array.slice()", "Both A and C"],
+    "correct": 2
+  },
+  {
+    "id": 37,
+    "question": "Which function can be used to iterate over an array?",
+    "answers": ["forEach()", "map()", "filter()", "All of the above"],
+    "correct": 3
+  },
+  {
+    "id": 38,
+    "question": "What does the `reduce()` method do in JavaScript?",
+    "answers": ["Transforms an array into a single value", "Filters elements from an array", "Sorts an array", "None of the above"],
+    "correct": 0
+  },
+  {
+    "id": 39,
+    "question": "How do you define a class in JavaScript?",
+    "answers": ["class MyClass {}", "MyClass() {}", "define MyClass {}", "function MyClass() {}"],
+    "correct": 0
+  },
+  {
+    "id": 40,
+    "question": "Which of the following is NOT a method of the `Array` prototype?",
+    "answers": ["map()", "filter()", "reduce()", "merge()"],
+    "correct": 3
+  },
+  {
+    "id": 41,
+    "question": "What does the `this` keyword refer to in an arrow function?",
+    "answers": ["Global object", "Lexical scope", "Function scope", "None of the above"],
+    "correct": 1
+  },
+  {
+    "id": 42,
+    "question": "What is the result of `console.log(typeof {})`?",
+    "answers": ["object", "array", "null", "undefined"],
+    "correct": 0
+  },
+  {
+    "id": 43,
+    "question": "What does the `Math.random()` function return?",
+    "answers": ["A random integer", "A random floating-point number between 0 and 1", "A random number between 1 and 100", "None of the above"],
+    "correct": 1
+  },
+  {
+    "id": 44,
+    "question": "Which method is used to check if a string includes a specified substring?",
+    "answers": ["includes()", "contains()", "indexOf()", "All of the above"],
+    "correct": 0
+  },
+  {
+    "id": 45,
+    "question": "What will be the output of `console.log(5 + '5')`?",
+    "answers": ["10", "55", "undefined", "NaN"],
+    "correct": 1
+  },
+  {
+    "id": 46,
+    "question": "Which of the following is a feature of ES6?",
+    "answers": ["Arrow functions", "Let and Const", "Template literals", "All of the above"],
+    "correct": 3
+  },
+  {
+    "id": 47,
+    "question": "How can you convert a string to a number in JavaScript?",
+    "answers": ["Number()", "parseInt()", "parseFloat()", "All of the above"],
+    "correct": 3
+  },
+  {
+    "id": 48,
+    "question": "Which of the following statements is true about `null`?",
+    "answers": ["It is an object", "It is a data type", "Both A and B", "None of the above"],
+    "correct": 0
+  },
+  {
+    "id": 49,
+    "question": "What will be the output of `console.log(typeof [1, 2, 3])`?",
+    "answers": ["array", "object", "undefined", "number"],
+    "correct": 1
+  },
+  {
+    "id": 50,
+    "question": "Which of the following is used to handle exceptions in JavaScript?",
+    "answers": ["try...catch", "throw", "finally", "All of the above"],
+    "correct": 3
+  }
+
+]
